@@ -196,7 +196,7 @@
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -498,6 +498,7 @@
 			baseConfigurationReference = 4F01A594D9B5CE89868FAD07 /* Pods-sampleapp-ios-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sampleapp-ios-swift/sampleapp-ios-swift.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 78R3455HHD;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
@@ -516,6 +517,7 @@
 			baseConfigurationReference = 1FF790B40477C2F03557AC20 /* Pods-sampleapp-ios-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sampleapp-ios-swift/sampleapp-ios-swift.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 78R3455HHD;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
